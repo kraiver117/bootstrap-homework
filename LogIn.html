@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous"
+  />
+  
+   <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+   <!--Nav Bar-->
+ <section>
+  <nav class="navbar navbar-light bg-light p-1">
+    <a class="navbar-brand  mr-auto" href="#">
+      <img
+        src="./icons/TpiServices.png"
+        width="138"
+        height="48"
+        class="d-inline-block align-left"
+      />
+    </a>
+
+    <ul class=" list-group  navbar-nav list-group-horizontal text-center">
+      <li class="list-group-item nav-item  py-0 px-1 border-0 ">
+        <a class="nav-link py-0 align-bottom" href="main.html">
+          <figure class="figure m-0 p-md-1">
+            <img
+              src="icons/Home.png"
+              class="figure-img  rounded m-0"
+              height="32"
+            />
+            <figcaption class="figure-caption ">Home</figcaption>
+          </figure>
+        </a>
+      </li>
+      <li class="list-group-item nav-item  py-0 px-1 border-0">
+        <a class="nav-link py-0 " href="aboutUs.html">
+          <figure class="figure m-0 p-md-1">
+            <img
+              src="icons/aboutUs.png"
+              class="figure-img  rounded m-0"
+              height="32"
+            />
+            <figcaption class="figure-caption">About Us</figcaption>
+          </figure>
+        </a>
+      </li>
+      <li class="list-group-item nav-item  py-0 px-1 border-0">
+        <a class="nav-link py-0" href="services.html">
+          <figure class="figure m-0 p-md-1">
+            <img
+              src="icons/services.png"
+              class="figure-img  rounded m-0"
+              height="32"
+            />
+            <figcaption class="figure-caption">Services</figcaption>
+          </figure>
+        </a>
+      </li>
+      <li class="activa list-group-item nav-item  py-0 px-1 border-0">
+        <a class="nav-link py-0" href="LogIn.html">
+          <figure class="figure m-0 p-md-1">
+            <img
+              src="icons/User.png"
+              class="figure-img  rounded m-0"
+              height="32"
+            />
+            <figcaption class="figure-caption">Log in</figcaption>
+          </figure>
+        </a>
+      </li>
+      
+    </ul>
+  </nav>
+</section>
+        
+<!--Login-->
+  <div class="container">
+    <div class="row">
+        <div class="col-12 col-md-3">
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="login-form">
+                <form action="/examples/actions/confirmation.php" method="post">
+                    <h2 class="text-center">Log in</h2>       
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Username" required="required">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Password" required="required">
+                    </div>
+                    <div class="form-group" >
+                        <button type="submit" class="btn standard-color btn-block">Log in</button>
+                    </div>
+                    <div class="clearfix">
+                        <label class="pull-left checkbox-inline"><input type="checkbox"> Remember me</label>
+                        <a href="#" class="pull-right" data-toggle="modal" data-target="#exampleModal">Forgot Password?</a>
+                    </div>        
+                </form>
+                <p class="text-center"><a href="Register.html">Create an Account</a></p>
+            </div>
+            
+        </div>
+        <div class="col-12 col-md-3">
+        </div>
+    </div>
+
+</div>
+
+
+   <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Reset Password</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <span>Please enter you email</span>
+        <input type="text" placeholder="Email" class="form-control"> 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn standard-color" data-dismiss="modal">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
+      
+      
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    
+</body>
+</html>

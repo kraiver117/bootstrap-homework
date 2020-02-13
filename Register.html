@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Document</title>
+
+    <!---FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+     <link rel="stylesheet" href="./css/styles.css" />
+
+</head>
+<body>
+
+ <!--Nav Bar-->
+ <section>
+    <nav class="navbar navbar-light bg-light p-1">
+      <a class="navbar-brand  mr-auto" href="#">
+        <img
+          src="./icons/TpiServices.png"
+          width="138"
+          height="48"
+          class="d-inline-block align-left"
+        />
+      </a>
+
+      <ul class=" list-group  navbar-nav list-group-horizontal text-center">
+        <li class="list-group-item nav-item  py-0 px-1 border-0 ">
+          <a class="nav-link py-0 align-bottom" href="main.html">
+            <figure class="figure m-0 p-md-1">
+              <img
+                src="icons/Home.png"
+                class="figure-img  rounded m-0"
+                height="32"
+              />
+              <figcaption class="figure-caption ">Home</figcaption>
+            </figure>
+          </a>
+        </li>
+        <li class="list-group-item nav-item  py-0 px-1 border-0">
+          <a class="nav-link py-0 " href="aboutUs.html">
+            <figure class="figure m-0 p-md-1">
+              <img
+                src="icons/aboutUs.png"
+                class="figure-img  rounded m-0"
+                height="32"
+              />
+              <figcaption class="figure-caption">About Us</figcaption>
+            </figure>
+          </a>
+        </li>
+        <li class="list-group-item nav-item  py-0 px-1 border-0">
+          <a class="nav-link py-0" href="services.html">
+            <figure class="figure m-0 p-md-1">
+              <img
+                src="icons/services.png"
+                class="figure-img  rounded m-0"
+                height="32"
+              />
+              <figcaption class="figure-caption">Services</figcaption>
+            </figure>
+          </a>
+        </li>
+        <li class="activa list-group-item nav-item  py-0 px-1 border-0">
+          <a class="nav-link py-0" href="LogIn.html">
+            <figure class="figure m-0 p-md-1">
+              <img
+                src="icons/User.png"
+                class="figure-img  rounded m-0"
+                height="32"
+              />
+              <figcaption class="figure-caption">Log in</figcaption>
+            </figure>
+          </a>
+        </li>
+        
+      </ul>
+    </nav>
+  </section>
+
+
+    <!-- Default form register -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-2">
+
+        </div>
+        <div class="col-12 col-md-8">
+            <form class="text-center border border-light p-5" action="#!">
+
+                <h3>Sign up</h3>
+                <br>
+                <div class="form-row mb-4">
+                    <div class="col">
+                        <!-- First name -->
+                        <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name" required>
+                    </div>
+                    <div class="col">
+                        <!-- Last name -->
+                        <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name" required>
+                    </div>
+                </div>
+            
+                <!-- E-mail -->
+                <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail" required>
+            
+                <!-- Password -->
+                <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock" required>
+                <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+                    At least 8 characters and 1 digit
+                </small>
+            
+                <!-- Phone number -->
+                <input type="text" id="defaultRegisterPhonePassword" class="form-control" placeholder="Phone number" aria-describedby="defaultRegisterFormPhoneHelpBlock" required>
+                <small id="defaultRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
+                    Optional - for two step authentication
+                </small>
+            
+                <!-- Newsletter -->
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="defaultRegisterFormNewsletter" >
+                    <label class="custom-control-label" for="defaultRegisterFormNewsletter">Subscribe to our newsletter</label>
+                </div>
+            
+                <!-- Sign up button -->
+              <button class="btn standard-color my-4 btn-block" type="submit" >Sign in</button>
+            
+                <!-- Social register -->
+                <p>or sign up with:</p>
+                <br>
+                <a href="#" class="mx-2" role="button"><i class="fab fa-facebook-f light-blue-text"></i></a>
+                <a href="#" class="mx-2" role="button"><i class="fab fa-twitter light-blue-text"></i></a>
+                <a href="#" class="mx-2" role="button"><i class="fab fa-linkedin-in light-blue-text"></i></a>
+                <a href="#" class="mx-2" role="button"><i class="fab fa-github light-blue-text"></i></a>
+            
+                <hr>
+            
+                <!-- Terms of service -->
+                <p>By clicking
+                    <em>Sign up</em> you agree to our
+                    <a href="" target="_blank">terms of service</a>
+            
+            </form>
+            <!-- Default form register -->
+        </div>
+        <div class="col-12 col-md-2">
+
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>

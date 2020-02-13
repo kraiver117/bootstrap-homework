@@ -1,0 +1,326 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.imgTest {
+  min-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  padding-bottom: 5%;
+}
+
+.img-test{
+  width: 100%;
+  object-fit: cover;
+  max-width: 270px;
+ 
+  
+  /*float:left;*/
+}
+
+.imgLocation {
+  min-width: 100%;
+}
+
+.imagenGallery {
+  width: 100%;
+  object-fit: cover;
+  max-width: 270px;
+}
+
+.gallery-title {
+  font-size: 16px;
+  line-height: 8px;
+  display: flex;
+  align-items: center;
+  color: #005238;
+  padding: 5PX;
+  font-family:Lato;
+  font-style: normal;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.subtitles{
+  font-size: 24px;
+  color: #005238;
+  
+  
+}
+
+
+.paragrah-content {
+  left: 8px;
+  font-family: Lato;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #177159;
+  padding-left: 5px;
+  font-style: lato;
+  font-weight: normal;
+  padding-top: 8px;
+ 
+}
+
+h3 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+  color: #005238;
+}
+
+
+.paragraph-normal{
+  width: 100%;
+  left: 8px;
+  top: 472px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #005238;
+  
+}
+
+.img-carousel{
+  width: 100%;
+}
+
+
+.img-garden{
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  object-position: center;
+}
+
+.img-carouselHome{
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  object-position: center;
+}
+
+
+
+.carousel1{
+  color: white;
+  background-color: #177159;
+  position: absolute;
+  top: -120px;
+  height: 150px;
+  left: 0;
+  padding: 10px;
+  
+}
+
+.little_paragraph{
+  font-size: 18px;
+}
+
+.tittles{
+  color:#FFFFFF;
+  font-size: 24px;
+}
+
+.grid-tittle{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 8px;
+  display: flex;
+  align-items: center;
+  color: #005238;
+  padding-left: 0px; 
+  padding-top: 0px;
+  padding-bottom: 5px;
+}
+
+.grid-desc{
+  left: 8px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #005238;
+  padding-left: 0px;
+  padding-top: 3px;
+  padding-bottom: 15px;
+}
+
+.footer{
+  background-color:#005238 ; 
+  color: #ffffff;
+}
+
+.standard-color{
+  background-color:#005238 ; 
+  color: #ffffff;
+}
+
+.login-form {
+  width: 340px;
+    margin: 50px auto;
+}
+  .login-form form {
+    margin-bottom: 15px;
+      background: #f7f7f7;
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+      padding: 30px;
+  }
+  .login-form h2 {
+      margin: 0 0 15px;
+  }
+  .form-control, .btn {
+      min-height: 38px;
+      border-radius: 2px;
+  }
+  .btn {        
+      font-size: 15px;
+      font-weight: bold;
+  }
+
+
+
+
+.activa {
+  background-color: transparent !important;
+  border-bottom: solid green !important;
+}
+
